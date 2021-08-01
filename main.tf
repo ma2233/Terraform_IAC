@@ -178,7 +178,7 @@ resource "aws_instance" "my-first-server" {
    sudo apt update -y
    sudo apt install apache2 -y
    sudo sytemctl start apache2
-   sudo bash -c 'echo Hi kenneth hacker hackney! > /var/www/html/index.html'
+   sudo bash -c 'echo Hi This is my project! > /var/www/html/index.html'
    EOF
 
 }
