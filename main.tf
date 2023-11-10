@@ -180,7 +180,6 @@ resource "aws_instance" "my-first-server" {
    sudo sytemctl start apache2
    sudo bash -c 'echo Hi This is my project! > /var/www/html/index.html'
    EOF
-
 }
 
 output "server_private_ip" {
